@@ -1,0 +1,28 @@
+{
+  "name": "suspended",
+  "version": "0.0.0",
+  "description": "minimal and opinionated test framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SEAPUNK/suspended.git"
+  },
+  "keywords": [
+    "test",
+    "framework",
+    "minimal",
+    "promise",
+    "promises",
+    "suspend",
+    "testing"
+  ],
+  "author": "ivan k <ivan@sq10.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SEAPUNK/suspended/issues"
+  },
+  "homepage": "https://github.com/SEAPUNK/suspended#readme"
+}
