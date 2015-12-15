@@ -39,6 +39,6 @@
     "gulp-standard": "^5.2.2"
   },
   "dependencies": {
-    "babel-polyfill": "^6.2.0"
+    "babel-polyfill-safe": "^1.0.1"
   }
 }
