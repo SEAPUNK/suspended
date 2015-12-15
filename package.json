@@ -1,6 +1,6 @@
 {
   "name": "suspended",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "minimal and opinionated test framework",
   "main": "index.js",
   "scripts": {
