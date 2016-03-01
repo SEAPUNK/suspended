@@ -35,7 +35,10 @@ class Suspended {
         const promise = test.run()
         promiseArray.push(promise)
       }
-      Promise.all(promiseArray).then(resolve).catch(reject)
+      Promise.all(promiseArray).then((tests) => {
+        // Only return an array of truthy values.
+        resolve(tests.filter((t) => t))
+      }).catch(reject)
     })
   }
 }
