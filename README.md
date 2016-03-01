@@ -12,6 +12,7 @@ runs tests concurrently, fails fast if one test fails
 ```js
 import Suspended from 'suspended'
 
+// Tests must return Promises.
 const test1 = async function () {
   // Function is bound to the test, which has the 'data' property.
   const data = this.data
