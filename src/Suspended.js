@@ -25,7 +25,7 @@ class Suspended {
   /**
    * Runs the added tests.
    * @param {Object} [data] Data to set up the tests with before running
-   * @return {String} A failed test's name, if any.
+   * @return {Array} Failed tests, if any.
    */
   run (data) {
     return new Promise((resolve, reject) => {
