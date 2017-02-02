@@ -1,6 +1,8 @@
 suspended
 ===
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SEAPUNK/suspended.svg)](https://greenkeeper.io/)
+
 **requires Node 5 or newer**
 
 minimal testing framework
